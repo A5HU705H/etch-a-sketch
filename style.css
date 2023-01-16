@@ -1,14 +1,14 @@
 .block{
     margin: 0px; 
     padding: 0px;
-    border: 0.5px solid black;
+    
     height: 31.25px;
     width: 31.25px;
 }
 body{display: flex; flex-flow: column; align-items: center;}
 
 .grid{
-    display: flex; flex-flow: column; flex: 0 1 0; height: 500px; width: 500px; margin-bottom:40px;
+    display: flex; flex-flow: column; flex: 0 1 0; height: 500px; width: 500px; margin-bottom:40px; border: 1px solid black;
 }
 .row{
     display: flex; 
